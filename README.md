@@ -7,11 +7,17 @@
 - [x] Levantar airflow con el file `docker-compose` YAML file.
 
 - [x] Crear database en postgres SQL en donde van a estar la data de stocks (en el caso del ejemplo: SPY, AAPL, MSFT)
+
+Database Scheme:
 ![db](/documents/database_scheme.PNG "db scheme")
+
+Database Databases:
 ![db](/documents/database_list_of_databases.PNG "db databases")
+
+Database Tables:
 ![db](/documents/database_tables.PNG "db tables")
 
-- [x] La base de datos se inicia con un .sql script dentro del init.sql de postgres. 
+- [x] La base de datos se inicia/crea con un .sql script dentro del init.sql de postgres. 
 
 - [x] Se desarrollo el modelo para captar datos desde la API de distintos TICKERS, guardarlos en una base de datos (previamente creada y configurada) y luego levantar una app de plotly para ver los stats de closing prices
 
@@ -22,9 +28,14 @@
 
 - [x] Se pueden ver los datos en un grafico creado con plotly
 
-![plotly](/documents/dash_pic1.PNG "plotly")
-![plotly](/documents/dash_pic2.PNG "plotly")
-![plotly](/documents/dash_pic3.PNG "plotly")
+Plotly ticker Microsoft:
+![plotly](/documents/dashpic1.PNG "plotly")
+
+Plotly ticker Apple:
+![plotly](/documents/dashpic2.PNG "plotly")
+
+Plotly ticker S&P:
+![plotly](/documents/dashpic3.PNG "plotly")
 
 
 
