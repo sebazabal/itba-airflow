@@ -9,19 +9,20 @@
 - [x] Crear database en postgres SQL en donde van a estar la data de stocks (en el caso del ejemplo: SPY, AAPL, MSFT)
 
 Database Scheme:
-![db](/documents/database_scheme.PNG "db scheme")
+<img width="526" alt="database_scheme" src="https://user-images.githubusercontent.com/66229520/207979758-b31d3ed1-a0f7-4972-b588-97fe90ba67e6.png">
+
 
 Database Databases:
-![db](/documents/database_list_of_databases.PNG "db databases")
+<img width="919" alt="database_list_of_databases" src="https://user-images.githubusercontent.com/66229520/207979771-5584a7a3-53fe-4835-adcf-7fb87edc66c8.png">
 
 Database Tables:
-![db](/documents/database_tables.PNG "db tables")
+<img width="1306" alt="database_tables" src="https://user-images.githubusercontent.com/66229520/207979785-af4b8df8-02d5-4eec-b9da-3999b65d396d.png">
 
 - [x] La base de datos se inicia/crea con un .sql script dentro del init.sql de postgres. 
 
 - [x] Se desarrollo el modelo para captar datos desde la API de distintos TICKERS, guardarlos en una base de datos (previamente creada y configurada) y luego levantar una app de plotly para ver los stats de closing prices
 
-![dag](/documents/DAG_airflow.PNG "DAG")
+<img width="1411" alt="DAG_airflow" src="https://user-images.githubusercontent.com/66229520/207979806-9a91d448-ad01-48b6-8649-bfcdf688a645.png">
 
 
 ➲ Se crearon los files de las consignas, la clase de python con el cliente SQL, los files de carga de datos y extracción de datos y el dag correspondiente
@@ -29,13 +30,16 @@ Database Tables:
 - [x] Se pueden ver los datos en un grafico creado con plotly
 
 Plotly ticker Microsoft:
-![plotly](/documents/dashpic1.PNG "plotly")
+<img width="1423" alt="dash pic1" src="https://user-images.githubusercontent.com/66229520/207979690-68ec7b78-4738-4a66-a1ec-2f69e065997b.png">
+
 
 Plotly ticker Apple:
-![plotly](/documents/dashpic2.PNG "plotly")
+<img width="1422" alt="dashpic2" src="https://user-images.githubusercontent.com/66229520/207979711-b57b4847-d5d2-4c03-b784-1dd6a2226d0f.png">
+
 
 Plotly ticker S&P:
-![plotly](/documents/dashpic3.PNG "plotly")
+<img width="1420" alt="dashpic3" src="https://user-images.githubusercontent.com/66229520/207979722-8cdac39a-6b57-4cd8-aef4-2965739a4d12.png">
+
 
 
 
